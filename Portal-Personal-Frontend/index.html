@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portal Personal</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+    }
+    header {
+      background: linear-gradient(135deg, #172554, #2563eb);
+      padding: 65px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 42px; margin: 0 0 12px; }
+    header p { color: #dbeafe; font-size: 18px; }
+    nav {
+      background: #111827;
+      padding: 18px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover { color: #60a5fa; }
+    main { max-width: 1000px; margin: 35px auto; padding: 0 20px; }
+    section {
+      background: #1e293b;
+      border: 1px solid #334155;
+      padding: 30px;
+      border-radius: 18px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 25px #0002;
+    }
+    h2 { color: #60a5fa; }
+    .perfil { display: flex; align-items: center; gap: 25px; flex-wrap: wrap; }
+    .perfil img {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3b82f6;
+    }
+    .perfil p { flex: 1; line-height: 1.8; min-width: 220px; }
+    li { padding: 8px 0; }
+    .redes { display: flex; gap: 12px; flex-wrap: wrap; }
+    .redes a {
+      background: #2563eb;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 9px;
+    }
+    .redes a:hover { background: #1d4ed8; }
+    footer {
+      background: #111827;
+      text-align: center;
+      padding: 25px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Portal Personal</h1>
+    <p>Estudiante de Ingeniería de Sistemas | Desarrollo Web</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#redes">Redes Sociales</a>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>¡Hola! Bienvenido a mi página</h2>
+      <div class="perfil">
+        <img src="https://placehold.co/300x300/2563eb/ffffff?text=Mi+Foto" alt="Foto de perfil">
+        <p>
+          Mi nombre es <strong>Tu Nombre Completo</strong>.
+          Soy estudiante de Ingeniería de Sistemas y me apasiona
+          aprender sobre tecnología, programación y desarrollo web.
+          Me gusta adquirir nuevos conocimientos, enfrentar desafíos
+          y mejorar mis habilidades para mi futuro profesional.
+        </p>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Mis intereses y habilidades</h2>
+      <ul>
+        <li>Programación y desarrollo de páginas web.</li>
+        <li>Diseño de interfaces modernas.</li>
+        <li>Tecnología e innovación.</li>
+        <li>Trabajo en equipo y resolución de problemas.</li>
+        <li>Aprendizaje continuo.</li>
+      </ul>
+    </section>
+
+    <section id="redes">
+      <h2>Mis redes y sitios favoritos</h2>
+      <div class="redes">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 | Mi Portal Personal | Diseño de Sistemas en Internet</p>
+  </footer>
+</body>
+</html>
+  
